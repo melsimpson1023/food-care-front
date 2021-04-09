@@ -26,7 +26,7 @@ export const foodIndex = () => {
 export const foodShow = (user, foodId) => {
   // console.log(foodId, user)
   return axios({
-    url: `${apiUrl}/blogs/${foodId}`,
+    url: `${apiUrl}/foods/${foodId}`,
     method: 'GET',
     headers: {
       'Authorization': `Bearer ${user.token}`

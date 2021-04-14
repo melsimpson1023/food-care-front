@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 
 const authenticatedOptions = (
   <Fragment>
-    <Nav.Link href="#change-password">Change Password</Nav.Link>
-    <Nav.Link href="#sign-out">Sign Out</Nav.Link>
+    <NavDropdown title="Settings" className="collapsible-nav-dropdown Home">
+      <NavDropdown.Item href="#change-password" className="color">Change Password</NavDropdown.Item>
+    </NavDropdown>
   </Fragment>
 )
 

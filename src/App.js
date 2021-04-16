@@ -14,6 +14,8 @@ import Data from './components/Data/Data'
 import About from './components/About/About'
 import Resources from './components/Resources/Resources'
 import Food from './components/Food/Food'
+import Presentation from './components/Presentation/Presentation'
+import Commercial from './components/Commercial/Commercial'
 
 class App extends Component {
   constructor () {
@@ -81,6 +83,12 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/change-password' render={() => (
             <ChangePassword msgAlert={this.msgAlert} user={user} />
+          )} />
+          <AuthenticatedRoute user={user} path='/presentation' render={() => (
+            <Presentation msgAlert={this.msgAlert} clearUser={this.clearUser} user={user} />
+          )} />
+          <AuthenticatedRoute user={user} path='/commercial' render={() => (
+            <Commercial msgAlert={this.msgAlert} user={user} />
           )} />
           <AuthenticatedRoute user={user} path='/food' render={() => (
             <Food msgAlert={this.msgAlert} user={user} />

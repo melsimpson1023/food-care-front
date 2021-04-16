@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+// controls the entire navigation bar (the parts without words)
+.navbar {
+   background-color: transparent;
+}
+
+.navbarStyle {
+  background-color: transparent;
+  background-image: url('./food001.jpeg');
+  color: #ffffff;
+  font-weight: bold; 
+  box-shadow:whitesmoke;
+  //background-position-x: center;
+  background-position: center;
+  background-size: stretch;
+}
+
+.Home {
+  font-family: 'PlayfairDisplay-Bold';
+  src: local('PlayfairDisplay-Bold'), url(./PlayfairDisplay-Bold.ttf) format('truetype');
+  // background-image: url('../../ImagesVideos/Sunlight/sun.gif');
+  color: #196666;
+}

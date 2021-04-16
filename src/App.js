@@ -10,9 +10,9 @@ import SignIn from './components/SignIn/SignIn'
 import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
 import FoodForThought from './components/FoodForThought/FoodForThought'
-import Data from '/components/Data/Data'
-import About from '/components/About/About'
-import Resources from '/components/Resources/Resources'
+import Data from './components/Data/Data'
+import About from './components/About/About'
+import Resources from './components/Resources/Resources'
 import Food from './components/Food/Food'
 
 class App extends Component {

@@ -6,6 +6,10 @@ import './Header.scss'
 
 const authenticatedOptions = (
   <Fragment className="navbarStyle">
+    <NavDropdown title="Advertisements" className="collapsible-nav-dropdown Home">
+      <NavDropdown.Item href="#presentation" className="color">Our Presentation</NavDropdown.Item>
+      <NavDropdown.Item href="#commercial" className="color">Our Commercial</NavDropdown.Item>
+    </NavDropdown>
     <NavDropdown title="Food" className="collapsible-nav-dropdown Home">
       <NavDropdown.Item href="#fooddonate" className="color">Donate money</NavDropdown.Item>
       <NavDropdown.Item href="#foodsponsor" className="color">Sponsor a family</NavDropdown.Item>
